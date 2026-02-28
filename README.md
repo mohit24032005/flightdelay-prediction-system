@@ -1,1 +1,23 @@
-# flightdelay-prediction-system
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+xgboost>=2.0.0
+
+# Machine learning & preprocessing
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dateutil>=2.8.2
+pillow>=10.0.0  # For image processing
+
+# Optional but recommended for better performance
+scipy>=1.11.0# flightdelay-prediction-system
+ # run this script in the terminal of your file 
+ pip install -r requirements.txt
